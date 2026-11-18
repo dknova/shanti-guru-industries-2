@@ -1,3 +1,5 @@
+import { IM } from './images-data.js';
+
 const STORE = "images/store.jpg";
 const $ = (s) => document.querySelector(s),
   mk = (a, f) => a.map(f).join("");
