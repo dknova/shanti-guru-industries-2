@@ -1,0 +1,6 @@
+.vercel/
+shanti-guru-template/node_modules/
+shanti-guru-template/dist/
+.env
+.env.*
+!.env.example
