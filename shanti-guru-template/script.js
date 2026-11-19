@@ -1,4 +1,4 @@
-import { IM } from './images-data.js';
+import { IM } from "./images-data.js";
 
 const STORE = "images/store.jpg";
 const $ = (s) => document.querySelector(s),
@@ -6,7 +6,7 @@ const $ = (s) => document.querySelector(s),
 $("#mq").innerHTML = mk([0, 1], () =>
   mk(
     [
-      "Food products trading",
+      "Agro-based food products",
       "Fast moving consumer goods",
       "South India distribution",
       "Own manufacturing",
@@ -108,8 +108,8 @@ const pc = (a, i) =>
       "pan-masala": "#500f8a",
       "esse-prime": "#674f32",
       "soya-chunks": "#7c4e1d",
-      "emily-spicy-imli": "#703f29",
-      "emily-masala-imli": "#566d2c",
+      "imli-spicy-imli": "#703f29",
+      "imli-masala-imli": "#566d2c",
     },
     tags = ["Distributed \u00b7 South India", "Manufactured by us"],
     R = $("#pst"),
